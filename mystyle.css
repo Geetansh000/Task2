@@ -1,0 +1,175 @@
+body {
+  /* background-color:ivory; */
+  background-image: url(https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Georgia, serif;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  /* position:fixed; */
+}
+
+.nav li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.content {
+  margin: 50px 100px;
+
+}
+
+.topic {
+
+  margin: 10px -100px;
+  padding: 10px 50px;
+  color: red;
+  font-weight: 2000;
+  font-size: 30px;
+  background-color: darkblue;
+}
+
+.olist {
+  overflow: hidden;
+}
+
+ol {
+  float: left;
+}
+
+table {
+  border: none;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+thead {
+  background-color: blue;
+}
+
+.alink {
+  margin: 10px 0px;
+}
+
+.alink a {
+  /* margin: 100px; */
+  text-decoration: none;
+  color: #111;
+  font-size: 25px;
+}
+
+.alink a:hover {
+  color: blue;
+  text-decoration: underline;
+  margin: 30px 0px;
+}
+
+.alink button {
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(139, 0, 139);
+  color: aliceblue;
+  box-shadow: 1px 1px 1px 1px #111;
+  padding: 10px;
+  font-weight: 200;
+  font-size: 20px;
+
+}
+
+.alink button:hover {
+  box-shadow: 3px 3px 1px 1px #111;
+  background-color: rgb(0, 0, 139);
+  font-weight: 500;
+  color: white;
+}
+
+.form {
+  align-content: center;
+  width: 60vw;
+  margin: auto;
+
+  background-color: darkgray;
+  border-radius: 20px;
+  padding: 20px 10vw;
+  font-size: 1.7vw;
+}
+
+.names {
+  float: left;
+}
+
+input[type=text] {
+  width: 24vw;
+  height: 1.8vw;
+  border: none;
+  box-shadow: 2px black;
+}
+
+input[type=date] {
+  margin: 10px 0px 0px 10px;
+  width: 12vw;
+  height: 2.2vw;
+  border: none;
+  padding: 0px 10px;
+
+  border-radius: 3px;
+}
+input[type=range] {
+  --webkit-appearance: none;
+  margin: 10px 0px 0px 10px;
+  width: 15vw;
+  height: 2.2vw;
+  background: black;
+  border: none;
+  padding: 0px 10px;
+
+  border-radius: 3px;
+}
+
+input[type=email] {
+  width: 24vw;
+  height: 1.8vw;
+  border: none;
+  /* box-shadow: 2px black; */
+}
+
+img,
+table {
+  transition: 0.3s ease;
+}
+
+img:hover,
+table:hover {
+  transform: scale(1.5);
+  margin-bottom: 50px;
+}
+
+input {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.form h4 {
+  margin: 5px;
+}
